@@ -55,3 +55,12 @@ var arr = [1, 2, 3];
 
 arr[10] = 99;
 console.log(arr);
+
+const obj = {
+  name:"a",
+  age:"25", 
+  phone:"232323"
+}
+
+const size  = Object.keys(obj).length;
+console.log(size)
